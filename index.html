@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="">
+    <title>@kencarlen_-71230994-My Personal Page </title>
+    <link rel="stylesheet" href="gaya.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Web Page</h1>
+    </header>
+
+    <section id="foto"><p> <img alt="ukdw" src ="tugas juga.jpg" width="150">
+    </section>
+    <section id="tentangsaya" class="p-4">
+        <div class="container">
+          <h2><b>Putu Gde Kenzie Carlen Mataram</b></h2>
+          <p><a href="https://www.instagram.com/kencarlen_/" target="_blank">@kencarlen_</a></p>
+          <p><b>Indonesia, Yogyakarta 13 Juni 2005</b></p>
+          <p><b>Universitas Kristen Duta Wacana (UKDW)</b></p>
+        </div>
+      </section>
+    <section id="keterampilan">
+        <div class="container">
+          <h2>Skillset</h2>
+          <ul class="list-group">
+            <li class="list-group-item">1.HTML</li>
+            <li class="list-group-item">2.CSS</li>
+            <li class="list-group-item">3.C</li>
+            <li class="list-group-item">4.Python</li>
+          </ul>
+        </div>
+      </section>
+  
+      
+<br>
+<br>
+  <p>
+        <h3>Preview Video Youtube Saya</h3>
+        <section id="foto2"><p> <img alt="ukdw" src ="yt.png" width="350">
+        </section>
+            <p><a href="https://youtu.be/B1YVkXGHD0E" target="_blank">Link Vidio Youtube Saya</a></p>
+        </p>
+
+    <button id="tombolGantiWarna">Ganti Warna</button>
+
+    <footer>
+    <p><h5>Thank you for visiting my personal web page</h5></p>
+    <p><h5>@kencarlen_-71230994-</h5></p>
+    </footer>
+
+    <script>
+        const bodyElement = document.body;
+    
+        function gantiWarnaRandom() {
+          const warnaList = ["#F0DBAF", "#DC8686", "#363062", "#FFFFFF"]; 
+          const randomIndex = Math.floor(Math.random() * warnaList.length);
+          const warnaRandom = warnaList[randomIndex];
+          bodyElement.style.backgroundColor = warnaRandom;
+        }
+    
+        const tombolGantiWarna = document.getElementById("tombolGantiWarna");
+        tombolGantiWarna.addEventListener('click', gantiWarnaRandom);
+      </script>
+</body>
+</html>

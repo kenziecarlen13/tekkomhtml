@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #a289fd;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin: 20px;
+ 
+}
+
+ul {
+    list-style-type: none;
+    padding: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 0.001em;
+    background-color: #a289fd;
+    color: white;
+}
+
+#foto {
+    display: block;
+    border: 1px;
+    margin left: 390px;
+    margin right: 390px;
+    padding: 8px;
+    background-color: #123ff1;
+    width: 8%;
+    margin-top: 100px;
+}
+
+#keterampilan {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+}
+
+#tentangsaya {
+    display: auto;
+    margin-left: 200px;
+    margin-right: 200;
+    margin-top: -290px;
+}
+
+#footer {
+    margin-bottom : 0px;
+}
+
+
+
